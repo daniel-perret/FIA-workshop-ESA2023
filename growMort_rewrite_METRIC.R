@@ -1,3 +1,6 @@
+### These functions were modified from `rFIA` (Stanke et al.) by Daniel Perret to support range-wide status and trends assessments for subalpine fir in the western US. See Perret et al. 2023 ("Range-wide status and trends assessments for subalpine fir indicate widespread disturbance-driven decline", Forest Ecology and Management) for more details. 
+
+
 ## DEFINING GRM COMPONENTS
 
 typeDomain_grow_dlp.metric <- function(db, treeType, landType, sizeThresh, evals) {

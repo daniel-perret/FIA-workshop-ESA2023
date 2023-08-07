@@ -1,0 +1,251 @@
+<metadata><idinfo><citation><citeinfo><origin>National Atlas of the United States</origin><pubdate>200506</pubdate><title Sync="TRUE">US State Boundaries</title><pubinfo><pubplace>Reston, VA</pubplace><publish>National Atlas of the United States</publish></pubinfo><onlink Sync="TRUE">\\Kahuna\data\spatial\vector\National\Boundaries\us_counties.shp</onlink><ftname Sync="TRUE">us_counties</ftname><geoform Sync="TRUE">vector digital data</geoform></citeinfo></citation><descript><abstract>This map layer portrays the State and county boundaries of the United States, Puerto Rico, and the U.S. Virgin Islands. The map layer was created by extracting county polygon features from the individual 1:2,000,000-scale State boundary Digital Line Graph (DLG) files produced by the U.S. Geological Survey. These files were then merged into a single file. This is a revised version of the November 2004 map layer.</abstract><purpose>(Derived from dissolve of US County dataset) These data are intended for geographic display and analysis at the
+national level, and for large regional areas.  The data should be
+displayed and analyzed at scales appropriate for 1:2,000,000-scale data.
+No responsibility is assumed by the National Atlas of the United States
+in the use of these data.</purpose><langdata Sync="TRUE">en</langdata></descript><timeperd><timeinfo><rngdates><begdate>1972</begdate><enddate>2001</enddate></rngdates><sngdate><caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate></sngdate></timeinfo><current>Ground condition</current></timeperd><status><progress>Complete</progress><update>Irregular</update></status><spdom><bounding><westbc Sync="TRUE">-179.133392</westbc><eastbc Sync="TRUE">179.788208</eastbc><northbc Sync="TRUE">71.398048</northbc><southbc Sync="TRUE">17.674692</southbc></bounding><lboundng><leftbc Sync="TRUE">-179.133392</leftbc><rightbc Sync="TRUE">179.788208</rightbc><bottombc Sync="TRUE">17.674692</bottombc><topbc Sync="TRUE">71.398048</topbc></lboundng></spdom><keywords><theme><themekt>ISO 19115 Topic Category</themekt><themekey>Boundaries</themekey></theme><theme><themekt>None</themekt><themekey>Boundaries</themekey><themekey>States</themekey><themekey>State boundaries</themekey><themekey>Counties</themekey><themekey>County boundaries</themekey></theme><place><placekt>
+U.S. Department of Commerce, 1995, Countries, Dependencies, Areas of
+Special Sovereignty, and Their Principal Administrative Divisions
+(Federal Information Processing Standard (FIPS) 10-4): Washington, DC,
+National Institute of Standards and Technology.
+</placekt><placekey>United States</placekey></place><place><placekt>None</placekt><placekey>USA</placekey></place><place><placekt>
+U.S. Department of Commerce, 1987, Codes for the Identification of the
+States, the District of Columbia and the Outlying Areas of The United
+States, and Associated Areas (Federal Information Processing Standard
+5-2):  Washington, DC, National Institute of Standards and Technology.
+</placekt><placekey>Alabama</placekey><placekey>Alaska</placekey><placekey>Arizona</placekey><placekey>Arkansas</placekey><placekey>California</placekey><placekey>Colorado</placekey><placekey>Connecticut</placekey><placekey>Delaware</placekey><placekey>District of Columbia</placekey><placekey>Florida</placekey><placekey>Georgia</placekey><placekey>Hawaii</placekey><placekey>Idaho</placekey><placekey>Illinois</placekey><placekey>Indiana</placekey><placekey>Iowa</placekey><placekey>Kansas</placekey><placekey>Kentucky</placekey><placekey>Louisiana</placekey><placekey>Maine</placekey><placekey>Maryland</placekey><placekey>Massachusetts</placekey><placekey>Michigan</placekey><placekey>Minnesota</placekey><placekey>Mississippi</placekey><placekey>Missouri</placekey><placekey>Montana</placekey><placekey>Nebraska</placekey><placekey>Nevada</placekey><placekey>New Hampshire</placekey><placekey>New Jersey</placekey><placekey>New Mexico</placekey><placekey>New York</placekey><placekey>North Carolina</placekey><placekey>North Dakota</placekey><placekey>Ohio</placekey><placekey>Oklahoma</placekey><placekey>Oregon</placekey><placekey>Pennsylvania</placekey><placekey>Rhode Island</placekey><placekey>South Carolina</placekey><placekey>South Dakota</placekey><placekey>Tennessee</placekey><placekey>Texas</placekey><placekey>Utah</placekey><placekey>Vermont</placekey><placekey>Virginia</placekey><placekey>Washington</placekey><placekey>West Virginia</placekey><placekey>Wisconsin</placekey><placekey>Wyoming</placekey><placekey>Puerto Rico</placekey><placekey>Virgin Islands</placekey><placekey>U.S. Virgin Islands</placekey></place></keywords><accconst>None</accconst><useconst>
+None.  Acknowledgment of the National Atlas of the United States of America
+would be appreciated in products derived from these data.
+</useconst><ptcontac><cntinfo><cntperp><cntper>Woodley Chu</cntper><cntorg>National Atlas of the United States</cntorg></cntperp><cntaddr><addrtype>Mailing address</addrtype><address>12201 Sunrise Valley Dr</address><address>MS 561</address><city>Reston</city><state>VA</state><postal>20192</postal></cntaddr><cntvoice>703-648-6375</cntvoice><cntemail>atlasmail@usgs.gov</cntemail></cntinfo></ptcontac><native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native><natvform Sync="TRUE">Shapefile</natvform></idinfo><dataqual><logic>
+The map layer was checked for topological consistency using the Arc/INFO
+command BUILD.  No other checks for logical consistency were performed on
+this map layer.
+</logic><complete>
+This map layer includes county boundaries for all 50 States, Puerto Rico,
+and the U.S. Virgin Islands.  Data completeness generally reflects the
+content of the original DLG files.
+</complete><lineage><srcinfo><srccite><citeinfo><origin>U.S. Geological Survey</origin><pubdate>1995</pubdate><title>1:2,000,000-scale Digital Line Graph Data - Boundaries</title><pubinfo><pubplace>Reston, VA</pubplace><publish>U.S. Geological Survey</publish></pubinfo></citeinfo></srccite><srcscale>2000000</srcscale><typesrc>CD-ROM</typesrc><srctime><timeinfo><rngdates><begdate>1970</begdate><enddate>1995</enddate></rngdates></timeinfo><srccurr>Ground condition</srccurr></srctime><srccitea>2MILBD</srccitea><srccontr>Spatial and attribute information</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>National Atlas of the United States</origin><pubdate>1998</pubdate><title>County Boundaries of the United States</title><pubinfo><pubplace>Reston, VA</pubplace><publish>National Atlas of the United States</publish></pubinfo></citeinfo></srccite><srcscale>2000000</srcscale><typesrc>Online</typesrc><srctime><timeinfo><sngdate><caldate>1998</caldate></sngdate></timeinfo><srccurr>Publication date</srccurr></srctime><srccitea>ATLAS-CNTY98</srccitea><srccontr>Spatial and attribute information</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>National Atlas of the United States</origin><pubdate>1999</pubdate><title>Hydrography Features of the United States</title><pubinfo><pubplace>Reston, VA</pubplace><publish>National Atlas of the United States</publish></pubinfo></citeinfo></srccite><srcscale>2000000</srcscale><typesrc>Online</typesrc><srctime><timeinfo><sngdate><caldate>1999</caldate></sngdate></timeinfo><srccurr>Publication date</srccurr></srctime><srccitea>ATLAS-HY9903</srccitea><srccontr>Spatial information</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>National Atlas of the United States</origin><pubdate>19990326</pubdate><title>County Boundaries of the United States</title><pubinfo><pubplace>Reston, VA</pubplace><publish>National Atlas of the United States</publish></pubinfo></citeinfo></srccite><srcscale>2000000</srcscale><typesrc>Online</typesrc><srctime><timeinfo><sngdate><caldate>1999</caldate></sngdate></timeinfo><srccurr>Publication date</srccurr></srctime><srccitea>ATLAS-CNTY9903</srccitea><srccontr>Spatial and attribute information</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>U.S. Geological Survey</origin><pubdate>Unknown</pubdate><title>1:100,000-scale USGS topographic maps</title><pubinfo><pubplace>Reston, VA</pubplace><publish>U.S. Geological Survey</publish></pubinfo></citeinfo></srccite><srcscale>100000</srcscale><typesrc>Paper</typesrc><srctime><timeinfo><sngdate><caldate>Unknown</caldate></sngdate></timeinfo><srccurr>Publication date</srccurr></srctime><srccitea>1:100,000-scale base maps</srccitea><srccontr>Spatial and attribute information</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>U.S. Geological Survey</origin><pubdate>1999</pubdate><title>Geographic Names Information System</title><pubinfo><pubplace>Reston, VA</pubplace><publish>U.S. Geological Survey</publish></pubinfo></citeinfo></srccite><typesrc>Online</typesrc><srctime><timeinfo><sngdate><caldate>1999</caldate></sngdate></timeinfo><srccurr>Publication date</srccurr></srctime><srccitea>Geographic Names Information System</srccitea><srccontr>Attribute information</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>National Atlas of the United States</origin><pubdate>199911</pubdate><title>County Boundaries of the United States</title><pubinfo><pubplace>Reston, VA</pubplace><publish>National Atlas of the United States</publish></pubinfo></citeinfo></srccite><srcscale>2000000</srcscale><typesrc>Online</typesrc><srctime><timeinfo><sngdate><caldate>199911</caldate></sngdate></timeinfo><srccurr>Publication date</srccurr></srctime><srccitea>ATLAS-CNTY9911</srccitea><srccontr>Spatial and attribute information</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>National Atlas of the United States</origin><pubdate>200102</pubdate><title>County Boundaries of the United States</title><pubinfo><pubplace>Reston, VA</pubplace><publish>National Atlas of the United States</publish></pubinfo></citeinfo></srccite><srcscale>2000000</srcscale><typesrc>Online</typesrc><srctime><timeinfo><sngdate><caldate>200102</caldate></sngdate></timeinfo><srccurr>Publication date</srccurr></srctime><srccitea>ATLAS-CNTY0102</srccitea><srccontr>Spatial and attribute information</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>City and County of Broomfield, CO</origin><pubdate>Unpublished material</pubdate><title>County Boundary</title></citeinfo></srccite><typesrc>Electronic mail system</typesrc><srctime><timeinfo><sngdate><caldate>20011115</caldate></sngdate></timeinfo><srccurr>Ground condition</srccurr></srctime><srccitea>BROOM</srccitea><srccontr>Spatial and attribute information</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>Department of Commerce, Census Bureau, Geography Division</origin><pubdate>200001</pubdate><title>2000 County and County Equivalent Areas</title><pubinfo><pubplace>Washington, DC</pubplace><publish>Department of Commerce, Census Bureau, Geography Division</publish></pubinfo><onlink>&lt;http://www.census.gov/geo/www/cob/co2000.html&gt;</onlink></citeinfo></srccite><typesrc>Online</typesrc><srctime><timeinfo><sngdate><caldate>200001</caldate></sngdate></timeinfo><srccurr>Publication date</srccurr></srctime><srccitea>CO99_D00</srccitea><srccontr>Spatial information</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>National Atlas of the United States</origin><pubdate>200202</pubdate><title>County Boundaries of the United States</title><pubinfo><pubplace>Reston, VA</pubplace><publish>National Atlas of the United States</publish></pubinfo></citeinfo></srccite><srcscale>2000000</srcscale><typesrc>Online</typesrc><srctime><timeinfo><sngdate><caldate>200202</caldate></sngdate></timeinfo><srccurr>Publication date</srccurr></srctime><srccitea>ATLAS-CNTY0202</srccitea><srccontr>Spatial and attribute information</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>National Atlas of the United States</origin><pubdate>200207</pubdate><title>County Boundaries of the United States</title><pubinfo><pubplace>Reston, VA</pubplace><publish>National Atlas of the United States</publish></pubinfo></citeinfo></srccite><srcscale>2000000</srcscale><typesrc>Online</typesrc><srctime><timeinfo><sngdate><caldate>200202</caldate></sngdate></timeinfo><srccurr>Publication date</srccurr></srctime><srccitea>ATLAS-CNTY0207</srccitea><srccontr>Spatial and attribute information</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>
+National Institute of Standands and Technology, Information
+Technology Laboratory
+</origin><pubdate>19900831</pubdate><title>
+Federal Information Processing Standard 6-4 (FIPS 6-4), Counties
+and Equivalent Entities of the United States, Its Possessions, and
+Associated Areas, 1990 August 31
+</title><pubinfo><pubplace>Gaithersburg, MD</pubplace><publish>
+National Institute of Standands and Technology, Information
+Technology Laboratory
+</publish></pubinfo><onlink>&lt;http://www.itl.nist.gov/fipspubs/fip6-4.htm&gt;</onlink></citeinfo></srccite><typesrc>Online</typesrc><srctime><timeinfo><sngdate><caldate>20020510</caldate></sngdate></timeinfo><srccurr>Publication date</srccurr></srctime><srccitea>FIPS_DOC</srccitea><srccontr>Spatial information</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>National Atlas of the United States</origin><pubdate>200208</pubdate><title>County Boundaries of the United States</title><pubinfo><pubplace>Reston, VA</pubplace><publish>National Atlas of the United States</publish></pubinfo></citeinfo></srccite><srcscale>2000000</srcscale><typesrc>Online</typesrc><srctime><timeinfo><sngdate><caldate>200202</caldate></sngdate></timeinfo><srccurr>Publication date</srccurr></srctime><srccitea>ATLAS-CNTY0208</srccitea><srccontr>Spatial and attribute information</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>U.S. Geological Survey</origin><pubdate>2004</pubdate><title>Geographic Names Information System</title><pubinfo><pubplace>Reston, VA</pubplace><publish>U.S. Geological Survey</publish></pubinfo></citeinfo></srccite><typesrc>Online</typesrc><srctime><timeinfo><sngdate><caldate>2004</caldate></sngdate></timeinfo><srccurr>Publication date</srccurr></srctime><srccitea>GNIS04</srccitea><srccontr>Attribute information</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>National Atlas of the United States</origin><pubdate>200411</pubdate><title>County Boundaries of the United States</title><pubinfo><pubplace>Reston, VA</pubplace><publish>National Atlas of the United States</publish></pubinfo></citeinfo></srccite><srcscale>2000000</srcscale><typesrc>Online</typesrc><srctime><timeinfo><sngdate><caldate>200411</caldate></sngdate></timeinfo><srccurr>Publication date</srccurr></srctime><srccitea>ATLAS-CNTY0411</srccitea><srccontr>Spatial and attribute information</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>U.S. Geological Survey</origin><pubdate>2005</pubdate><title>Geographic Names Information System</title><pubinfo><pubplace>Reston, VA</pubplace><publish>U.S. Geological Survey</publish></pubinfo></citeinfo></srccite><typesrc>Online</typesrc><srctime><timeinfo><sngdate><caldate>2005</caldate></sngdate></timeinfo><srccurr>Publication date</srccurr></srctime><srccitea>GNIS05</srccitea><srccontr>Attribute information</srccontr></srcinfo><srcinfo><srccite><citeinfo><origin>National Atlas of the United States</origin><pubdate>200301</pubdate><title>Streams and Waterbodies of the United States</title><pubinfo><pubplace>Reston, VA</pubplace><publish>National Atlas of the United States</publish></pubinfo></citeinfo></srccite><srcscale>2000000</srcscale><typesrc>Online</typesrc><srctime><timeinfo><sngdate><caldate>200301</caldate></sngdate></timeinfo><srccurr>Publication date</srccurr></srctime><srccitea>ATLAS-hydro</srccitea><srccontr>Spatial and attribute information</srccontr></srcinfo><procstep><procdesc>
+The 2MILBD data files were originally digitized by the National Mapping
+Division based on the sectional maps contained in 'The National Atlas of
+the United States of America' published by the USGS in 1970.  The
+sectional maps were updated during 1978-1981 and digitized in the early
+1980's.  The data were updated again in the early 1990's by the USGS and
+published on CD-ROM in 1995 as State DLGs.  Using Arc/INFO software, the
+updated DLG optional-format files were converted to Arc/INFO coverages
+using the DLGARC command.  Only county boundaries and attribute
+information were extracted from the boundaries DLG layer for inclusion
+in this national coverage.  The county boundary lines that crossed open
+water were excluded for graphic purposes and polygons that represented
+islands were attributed with the appropriate county information.  The
+individual State coverages were then merged together using the Arc/INFO
+command MAPJOIN.  "Slivers" created during the MAPJOIN process were
+identified and deleted using the ELIMINATE command.  In 1998, the
+delineation of the boundary of Mojave County, AZ was corrected.  Minor
+modifications were also made to boundaries in Alaska.
+</procdesc><srcused>2MILBD</srcused><procdate>1998</procdate><srcprod>ATLAS-CNTY98</srcprod></procstep><procstep><procdesc>
+The spatial features were compared against the National Atlas
+hydrography layer (ATLAS-HY9903) and modified where necessary.
+Incorrect attributes were corrected.  Yellowstone County was deleted and
+the boundaries for Gallatin and Park Counties were adjusted to absorb
+the area of Yellowstone National Park.  Puerto Rico and the U.S. Virgin
+Islands were added.
+</procdesc><srcused>ATLAS-HY9903</srcused><srcused>ATLAS-CNTY98</srcused><srcused>2MILBD</srcused><procdate>199903</procdate><srcprod>ATLAS-CNTY9903</srcprod></procstep><procstep><procdesc>
+Several boundary adjustments were made to counties in Alaska, Nebraska,
+Oklahoma, Texas, and Virginia.  Dade County, Florida was changed to
+Miami-Dade County and the FIPS code was changed to 12086.
+</procdesc><srcused>ATLAS-CNTY9903</srcused><srcused>1:100,000-scale base maps</srcused><srcused>Geographic Names Information System</srcused><procdate>199911</procdate><srcprod>ATLAS-CNTY9911</srcprod></procstep><procstep><procdesc>
+The county name was corrected for the Grass Cay and Mingo Cay polygons
+in the U.S. Virgin Islands.  The State field was changed from names to
+two-character abbreviations, and a field for State FIPS was added.
+</procdesc><srcused>ATLAS-CNTY9911</srcused><procdate>200102</procdate><srcprod>ATLAS-CNTY0102</srcprod></procstep><procstep><procdesc>
+The newly formed City and County of Broomfield, Colorado was added to
+the map layer.
+</procdesc><srcused>ATLAS-CNTY0102</srcused><srcused>BROOM</srcused><procdate>200112</procdate></procstep><procstep><procdesc>
+The boundary of Juneau Borough, Alaska was modified to include
+approximately 61,000 acres of northern Admiralty Island.  Data from
+the Census Bureau's county boundary file of Alaska was extracted and
+generalized to a scale of 1:2,000,000.
+
+The boundary of Denver County, Colorado was modified to include the area
+occupied by Denver International Airport.  Additional minor corrections
+were made to Denver County and Adams County.  All corrections were made
+using data from the Census Bureau's county boundary file of Colorado.
+
+Finally, county attribution was removed from the Niagara River between
+Lake Ontario and Lake Erie.
+</procdesc><srcused>CO99_D00</srcused><srcused>ATLAS-CNTY0102</srcused><procdate>200201</procdate><srcprod>ATLAS-CNTY0202</srcprod></procstep><procstep><procdesc>
+Boundary adjustments were made between the following counties or county
+equivalents:
+&gt;1) Navajo and Coconino in Arizona
+&gt;2) Tuolumne and Mono in California
+&gt;3) Lake and Chaffee in Colorado
+&gt;4) Gulf and Franklin in Florida
+&gt;5) Plaquemines Parish and Jefferson Parish in Louisiana
+&gt;6) Mora and Taos in New Mexico
+&gt;7) Otero and Chaves in New Mexico
+&gt;8) Canovanas Municipio and Loiza Municipio in Puerto Rico
+&gt;9) Tipton and Shelby in Tennesee
+&gt;10) Loving and Winkler in Texas
+&gt;11) Pecos and Terrell in Texas
+&gt;12) Kerr and Bandera in Texas
+&gt;13) Real and Bandera in Texas
+&gt;14) San Patricio and Nueces in Texas
+&gt;15) Sanpete and Jab in Utah
+&gt;16) Harrisonburg City and Rockingham County in Virginia
+&gt;17) Staunton City and Augusta County in Virginia
+&gt;18) Lynchburg City and Campbell County in Virginia
+&gt;19) Danville City and Pittsylvania County in Virginia
+&gt;
+Numerous additional minor boundary adjustments were made throughout
+the country.  In Puerto Rico, Florida Municipio was added and an
+offshore island was added to Ponce Municipio.  A extra polygon within
+Vega Baja Municipio was merged with the rest of the municipio.
+
+An attribute containing the area in square miles for the county was
+added.  It was calculated by summing values in the area field for each
+county, which is in square meters, and multiplying the results by
+0.0000003681.
+</procdesc><srcused>1:100,000-scale base maps</srcused><srcused>CO99_D00</srcused><srcused>ATLAS-CNTY0202</srcused><procdate>200207</procdate><srcprod>ATLAS-CNTY0207</srcprod></procstep><procstep><procdesc>
+According to the change notice in FIPS_DOC, the independent city
+(county-equivalent) of Clifton Forge, Virginia, was reverted to town
+status and is an incorporated place within Alleghany County.  Clifton
+Forge, Virginia (FIPS code 560) was deleted. The FIPS county code of 005
+for Alleghany County did not change.
+</procdesc><srcused>ATLAS-CNTY0207</srcused><srcused>FIPS_DOC</srcused><procdate>200208</procdate><srcprod>ATLAS-CNTY0208</srcprod></procstep><procstep><procdesc>
+The following county names were edited based on the GNIS database:
+DeBaca NM, DeKalb AL, DeKalb GA, DeKalb IL, DeKalb MO, DeKalb TN,
+DeSoto FL, DeSoto MS, DeWitt TX, DuPage IL, LaMoure ND, Saint Mary's MD
+</procdesc><srcused>ATLAS-CNTY0208</srcused><srcused>GNIS04</srcused><procdate>200411</procdate><srcprod>ATLAS-CNTY0411</srcprod></procstep><procstep><procdesc>
+Maryland's Queen Anne's County had the apostrophe added where missing
+and the following county names in Alaska were edited based on the GNIS
+database: Anchorage Municipality, Juneau City and Borough, Sitka City
+and Borough, Yakutat City and Borough.  In addition, two line segments
+along the Texas/Mexico border were modified to align to ATLAS-hydro.
+</procdesc><srcused>ATLAS-CNTY0411</srcused><srcused>GNIS05</srcused><srcused>ATLAS-hydro</srcused><procdate>200505</procdate></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\DOCUME~1\mark\LOCALS~1\Temp\xml1073.tmp</srcused><date Sync="TRUE">20080708</date><time Sync="TRUE">12122300</time></procstep></lineage></dataqual><spdoinfo><indspref>
+U.S. Department of Commerce, 1987, Codes for the Identification of the
+States, the District of Columbia and the Outlying Areas of the United
+States, and Associated Areas (FIPS 5-2): Washington, DC, National
+Institute of Standards and Technology.
+
+U.S. Department of Commerce, 1990, Counties and Equivalent Entities of the
+United States, Its Possessions, and Associated Areas (FIPS 6-4): Washington,
+DC, National Institute of Standards and Technology.
+</indspref><direct Sync="TRUE">Vector</direct><ptvctinf><esriterm Name="state_boundaries"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo><spref><horizsys><geodetic><horizdn Sync="TRUE">North American Datum of 1983</horizdn><ellips Sync="TRUE">Geodetic Reference System 80</ellips><semiaxis Sync="TRUE">6378137.000000</semiaxis><denflat Sync="TRUE">298.257222</denflat></geodetic><cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn></cordsysn></horizsys><vertdef><altsys><altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc><altres Sync="TRUE">1.000000</altres></altsys></vertdef></spref><eainfo><detailed Name="state_boundaries"><enttyp><enttypl Sync="TRUE">state_boundaries</enttypl><enttypd>
+The second order division of a nation, such as a parish, borough,
+municipio, judicial division, and independent cities in Maryland,
+Missouri, Nevada, and Virginia.
+</enttypd><enttypds>National Atlas of the United States</enttypds><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp><attr><attrlabl Sync="TRUE">Shape_Area</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl>State</attrlabl><attrdef>
+The two-character abbreviation for the name of the State or State
+equivalent in which the county is located.
+</attrdef><attrdefs>National Atlas of the United States</attrdefs><attrdomv><codesetd><codesetn>
+Codes for the Identification of the States, the District of Columbia
+and the Outlying Areas of the United States, and Associated Areas;
+(Federal Information Processing  Standard (FIPS) 5-2): Washington,
+DC, National Institute of Standards and Technology.
+</codesetn><codesets>U.S. Department of Commerce</codesets></codesetd><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>Shape</attrlabl><attrdef>The representation of the entity in the data.</attrdef><attrdefs>National Atlas of the United States</attrdefs><attrdomv><edom><edomv>Polygon</edomv><edomvd>2-dimensional element</edomvd><edomvds>ESRI GIS software</edomvds></edom><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv><attalias Sync="TRUE">STATE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Shape_Leng</attrlabl><attalias Sync="TRUE">Shape_Leng</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">STATE</attrlabl><attalias Sync="TRUE">Shape_Area</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Acres</attrlabl><attalias Sync="TRUE">Acres</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed><detailed Name="gcjv.DL.WNV_WK_CROW"><enttyp><enttypl Sync="TRUE">gcjv.DL.WNV_WK_CROW</enttypl><enttypt Sync="TRUE">Relationship</enttypt></enttyp></detailed></eainfo><distinfo><distrib><cntinfo><cntorgp><cntorg>Earth Science Information Center, U.S. Geological Survey</cntorg></cntorgp><cntaddr><addrtype>Mailing address</addrtype><address>507 National Center</address><city>Reston</city><state>VA</state><postal>20192</postal></cntaddr><cntvoice>1-888-ASK-USGS (1-888-275-8747)</cntvoice><cntvoice>703-648-5920</cntvoice><cntinst>
+In addition to the address above there are other ESIC offices throughout
+the country.  A full list of these offices is at
+&lt;http://geography.usgs.gov/esic/esic_index.html&gt;.
+</cntinst></cntinfo></distrib><distliab>
+Although these data have been processed successfully on a computer system at
+the U.S. Geological Survey, no warranty expressed or implied is made by the
+U.S. Geological Survey regarding the utility of the data on any other
+system, nor shall the act of distribution constitute any such warranty.  No
+responsibility is assumed by the U.S. Geological Survey in the use of these
+data.
+</distliab><stdorder><digform><digtinfo><formname>ESRI Shapefile</formname><transize Sync="TRUE">0.000</transize><dssize Sync="TRUE">0.000</dssize></digtinfo><digtopt><onlinopt><computer><networka><networkr>&lt;http://nationalatlas.gov/atlasftp.html&gt;</networkr></networka></computer></onlinopt></digtopt></digform><digform><digtinfo><formname>SDTS</formname><transize Sync="TRUE">0.000</transize><dssize Sync="TRUE">0.000</dssize></digtinfo><digtopt><onlinopt><computer><networka><networkr>&lt;http://nationalatlas.gov/atlasftp.html&gt;</networkr></networka></computer></onlinopt></digtopt></digform><fees>There is no charge for the map layer.</fees></stdorder><resdesc Sync="TRUE">Downloadable Data</resdesc></distinfo><metainfo><metd Sync="TRUE">20100203</metd><metc><cntinfo><cntperp><cntper>Peg Rawson</cntper><cntorg>National Atlas of the United States</cntorg></cntperp><cntaddr><addrtype>Mailing address</addrtype><address>12201 Sunrise Valley Dr</address><address>MS 561</address><city>Reston</city><state>VA</state><postal>20192</postal></cntaddr><cntvoice>703-648-4183</cntvoice><cntemail>atlasmail@usgs.gov</cntemail><cntorgp><cntper>REQUIRED: The person responsible for the metadata information.</cntper><cntorg>REQUIRED: The organization responsible for the metadata information.</cntorg></cntorgp></cntinfo></metc><metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn><metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv><metsi><metscs>None</metscs><metsc>Unclassified</metsc><metshd>None</metshd></metsi><langmeta Sync="TRUE">en</langmeta><mettc Sync="TRUE">local time</mettc></metainfo><Esri><CreaDate>20110321</CreaDate><CreaTime>14041000</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20170418</SyncDate><SyncTime>15272300</SyncTime><ModDate>20170418</ModDate><ModTime>15272300</ModTime><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20100203" Time="154801" Name="" export="">FeatureClassToFeatureClass "Database Connections\Connection to condor.sde\gcjv.DL.geographic\gcjv.DL.us_counties" Y:\spatial\vector\National\Boundaries us_counties.shp # "AREA 'AREA' true true false 8 Double 3 12 ,First,#,Database Connections\Connection to condor.sde\gcjv.DL.geographic\gcjv.DL.us_counties,gcjv.DL.us_counties.AREA,-1,-1;PERIMETER 'PERIMETER' true true false 8 Double 3 12 ,First,#,Database Connections\Connection to condor.sde\gcjv.DL.geographic\gcjv.DL.us_counties,PERIMETER,-1,-1;COUNTYP020 'COUNTYP020' true true false 8 Double 0 11 ,First,#,Database Connections\Connection to condor.sde\gcjv.DL.geographic\gcjv.DL.us_counties,COUNTYP020,-1,-1;STATE 'STATE' true true false 2 Text 0 0 ,First,#,Database Connections\Connection to condor.sde\gcjv.DL.geographic\gcjv.DL.us_counties,STATE,-1,-1;COUNTY 'COUNTY' true true false 50 Text 0 0 ,First,#,Database Connections\Connection to condor.sde\gcjv.DL.geographic\gcjv.DL.us_counties,COUNTY,-1,-1;FIPS 'FIPS' true true false 5 Text 0 0 ,First,#,Database Connections\Connection to condor.sde\gcjv.DL.geographic\gcjv.DL.us_counties,FIPS,-1,-1;STATE_FIPS 'STATE_FIPS' true true false 2 Text 0 0 ,First,#,Database Connections\Connection to condor.sde\gcjv.DL.geographic\gcjv.DL.us_counties,STATE_FIPS,-1,-1;SQUARE_MIL 'SQUARE_MIL' true true false 8 Double 3 15 ,First,#,Database Connections\Connection to condor.sde\gcjv.DL.geographic\gcjv.DL.us_counties,SQUARE_MIL,-1,-1;Shape_area 'Shape_area' false false true 0 Double 0 0 ,First,#,Database Connections\Connection to condor.sde\gcjv.DL.geographic\gcjv.DL.us_counties,Shape.area,-1,-1;Shape_len 'Shape_len' false false true 0 Double 0 0 ,First,#,Database Connections\Connection to condor.sde\gcjv.DL.geographic\gcjv.DL.us_counties,Shape.len,-1,-1" # Y:\spatial\vector\National\Boundaries\us_counties.shp</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20110105" Time="101519" Name="" export="">FeatureClassToFeatureClass D:\IWJV\GIS\us_counties.shp "D:\IWJV\GIS\IWJV Base Data.gdb" US_Counties # "AREA "AREA" true true false 13 Double 3 12 ,First,#,D:\IWJV\GIS\us_counties.shp,AREA,-1,-1;PERIMETER "PERIMETER" true true false 13 Double 3 12 ,First,#,D:\IWJV\GIS\us_counties.shp,PERIMETER,-1,-1;COUNTYP020 "COUNTYP020" true true false 11 Double 0 11 ,First,#,D:\IWJV\GIS\us_counties.shp,COUNTYP020,-1,-1;STATE "STATE" true true false 2 Text 0 0 ,First,#,D:\IWJV\GIS\us_counties.shp,STATE,-1,-1;COUNTY "COUNTY" true true false 50 Text 0 0 ,First,#,D:\IWJV\GIS\us_counties.shp,COUNTY,-1,-1;FIPS "FIPS" true true false 5 Text 0 0 ,First,#,D:\IWJV\GIS\us_counties.shp,FIPS,-1,-1;STATE_FIPS "STATE_FIPS" true true false 2 Text 0 0 ,First,#,D:\IWJV\GIS\us_counties.shp,STATE_FIPS,-1,-1;SQUARE_MIL "SQUARE_MIL" true true false 16 Double 3 15 ,First,#,D:\IWJV\GIS\us_counties.shp,SQUARE_MIL,-1,-1;Shape_area "Shape_area" true true false 19 Double 0 0 ,First,#,D:\IWJV\GIS\us_counties.shp,Shape_area,-1,-1;Shape_len "Shape_len" true true false 19 Double 0 0 ,First,#,D:\IWJV\GIS\us_counties.shp,Shape_len,-1,-1" #</Process><Process ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\Dissolve" Date="20110321" Time="140133" Name="" export="">Dissolve Western_US_State_Boundary_from_co "D:\IWJV\GIS\IWJV Base Data.gdb\Western_US_State_Boundary_from_co1" STATE # MULTI_PART DISSOLVE_LINES</Process></lineage><itemProps><itemName Sync="TRUE">state_boundaries</itemName><imsContentType Sync="TRUE">002</imsContentType><itemLocation><linkage Sync="TRUE">file://\\vmware-host\Shared Folders\Documents\gis_examples\state_boundaries.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation><itemSize Sync="TRUE">0.000</itemSize></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.4'&gt;&lt;WKT&gt;PROJCS[&amp;quot;North_America_Albers_Equal_Area_Conic&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Albers&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,0.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-96.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,20.0],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,60.0],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,40.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;Esri&amp;quot;,102008]]&lt;/WKT&gt;&lt;XOrigin&gt;-16688100&lt;/XOrigin&gt;&lt;YOrigin&gt;-9068200&lt;/YOrigin&gt;&lt;XYScale&gt;269868926.20313245&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;102008&lt;/WKID&gt;&lt;LatestWKID&gt;102008&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml><projcsn Sync="TRUE">North_America_Albers_Equal_Area_Conic</projcsn><csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits></coordRef></DataProperties><ArcGISFormat>1.0</ArcGISFormat><ArcGISProfile>ItemDescription</ArcGISProfile></Esri><dataIdInfo><envirDesc Sync="TRUE"> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1.5686</envirDesc><dataLang><languageCode Sync="TRUE" value="eng" country="US"/><countryCode value="USA" Sync="TRUE"></countryCode></dataLang><idCitation><resTitle Sync="FALSE">US State Boundaries</resTitle><presForm><PresFormCd Sync="TRUE" value="005"/></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"/></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">-179.133392</westBL><eastBL Sync="TRUE">179.788208</eastBL><northBL Sync="TRUE">71.398048</northBL><southBL Sync="TRUE">17.674692</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-179.133392</westBL><eastBL Sync="TRUE">179.788208</eastBL><northBL Sync="TRUE">71.398048</northBL><southBL Sync="TRUE">17.674692</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox><descKeys><thesaName uuidref="723f6998-058e-11dc-8314-0800200c9a66"/><keyword Sync="TRUE">002</keyword></descKeys><idPurp>(Derived from dissolve of US County dataset) These data are intended for geographic display and analysis at the
+national level, and for large regional areas.  The data should be
+displayed and analyzed at scales appropriate for 1:2,000,000-scale data.
+No responsibility is assumed by the National Atlas of the United States
+in the use of these data.</idPurp><idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;This map layer portrays the State and county boundaries of the United States, Puerto Rico, and the U.S. Virgin Islands. The map layer was created by extracting county polygon features from the individual 1:2,000,000-scale State boundary Digital Line Graph (DLG) files produced by the U.S. Geological Survey. These files were then merged into a single file. This is a revised version of the November 2004 map layer.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs><searchKeys><keyword>Boundaries</keyword><keyword>Boundaries</keyword><keyword>States</keyword><keyword>State boundaries</keyword><keyword>Counties</keyword><keyword>County boundaries</keyword></searchKeys><resConst><Consts><useLimit>None.  Acknowledgment of the National Atlas of the United States of America
+would be appreciated in products derived from these data.</useLimit></Consts></resConst></dataIdInfo><mdLang><languageCode Sync="TRUE" value="eng"/><countryCode value="USA" Sync="TRUE"></countryCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"/></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"/></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\Kahuna\data\spatial\vector\National\Boundaries\us_counties.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.000</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE" code="102008">GCS_North_American_1983</identCode><idCodeSpace Sync="TRUE">Esri</idCodeSpace><idVersion Sync="TRUE">4.0.0</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="state_boundaries"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20170418</mdDateSt><Binary><Thumbnail><Data EsriPropertyType="PictureX">/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCACFAMgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iii
+gBGYKpZiAAMkntUM15bwTRxSSqskn3V6k+/096ZqLImnzM4yuOeM9/Tv9O9YEdu8/i4OsUqW9jAU
+DuuQzNjhSR0APqfoKwrVlT+4aVzp0kSRdyOrDplTmnVTaKN23MgLdmxyPxqGWSWJysUzDAHDncMs
+cDrzjr3rCGOg/iVhuJpUVV824XtE/wCa4/nThcsOGgfPcqQR/PP6VvHE0pbSFyssUVB9rhz/ABj3
+MbAfypftdt/z8Rf99itVKL2Yiaimq6uu5GDD1BzTqoAoopqOsi7kYMp7g5FADqKKKACiiigAoooo
+AKKKKACiqy3qtNsEUoXdt8wgBc/nk/UCrNJSUtmAUUUUwCiiigChqkQuoY7TeyeY4YsmMgKQ2eQR
+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</Data></Thumbnail></Binary></metadata>

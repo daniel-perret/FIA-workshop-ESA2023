@@ -1,0 +1,26 @@
+{
+    "id": "017D624F",
+    "path": "C:/Users/DanielPerret/Box/01. daniel.perret Workspace/PROJECTS/ESA_workshop/FIA-workshop-ESA2023/growMort_rewrite_METRIC.R",
+    "project_path": "growMort_rewrite_METRIC.R",
+    "type": "r_source",
+    "hash": "1667387783",
+    "contents": "",
+    "dirty": false,
+    "created": 1691184885673.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "130,53",
+        "scrollLine": "0"
+    },
+    "folds": "5|83|115|0|\n",
+    "lastKnownWriteTime": 1691423116,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1691423116696,
+    "read_only": false,
+    "read_only_alternatives": []
+}
