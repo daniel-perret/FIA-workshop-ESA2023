@@ -33,11 +33,19 @@ OR_PLOT <- fread('http://apps.fs.usda.gov/fia/datamart/CSV/OR_PLOT.CSV',
                  select=c("CN", "INVYR", "MEASYEAR", "STATECD", 
                           "UNITCD", "COUNTYCD", "PLOT", "LAT", "LON"))
 
+OR_PLOT <- all.fia$PLOT %>% 
+  select("CN", "INVYR", "MEASYEAR", "STATECD", 
+         "UNITCD", "COUNTYCD", "PLOT", "LAT", "LON")
+
 #OR_TREE table contains caninformation about all trees present on plots within the state: 
 #Note: Up to 207 variables available within TREE table, only a subset selected here.
 OR_TREE <- fread('http://apps.fs.usda.gov/fia/datamart/CSV/OR_TREE.CSV', 
-                 select=c("CN", "PLT_CN", "INVYR", "MEASYEAR",
+                 select=c("CN", "PLT_CN", "INVYR",
                           "SUBP", "PLOT", "TREE", "STATUSCD", "SPCD", "DIA"))
+
+OR_TREE <- all.fia$TREE %>% 
+  select("CN", "PLT_CN", "INVYR",
+         "SUBP", "PLOT", "TREE", "STATUSCD", "SPCD", "DIA")
 
 #REF_SPECIES is an index table that helps identify the trees/seedlings present on plots in the state:
 #Note: Up to 79 variables available within REF_SPECIES table, only a subset selected here.
@@ -72,7 +80,7 @@ str(REF_SPECIES)
 
 #Join all TREE data:
 #Note: We are using the left_join function in the dplyr package.
-OR_DATA <- left_join(OR_TREE, OR_PLOT, by=c("PLT_CN", "INVYR", "MEASYEAR", "PLOT"))
+OR_DATA <- left_join(OR_TREE, OR_PLOT, by=c("PLT_CN", "INVYR", "PLOT"))
 OR_DATA <- left_join(OR_DATA, REF_SPECIES, by="SPCD")
 
 #Restrict data to only live trees, STATUSCD==1:
@@ -115,10 +123,11 @@ US <- map_data("state")
 OR <- US[US$region=="oregon",]
 
 #Create a very simple map using ggplot:
-Pine_map <- ggplot() +
+fir_map <- ggplot() +
   geom_polygon(data=OR, aes(x=long, y=lat, group=group), fill = "white", colour = "black") +
   geom_point(data=fir.recent, aes(x=LON, y=LAT), colour="dark green")
 
+fir_map
 #There you have it! Please note that this is a very simple map to get a broad sense of the distribution. 
 #details, aesthetics, labels, projections, etc. can be added to clean this up and beautify it later. 
 

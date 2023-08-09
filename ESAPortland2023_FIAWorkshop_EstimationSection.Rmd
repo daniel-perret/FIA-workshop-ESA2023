@@ -59,9 +59,9 @@ source("growMort_rewrite_METRIC.R")
 Loading data and modifying some fields:
 ```{r fia.data, echo=T}
 
-# Another approach to loading and manipulating FIA data! Here we read in FIA data from a local directory, using rFIA functionality:
+# Another approach to loading and manipulating FIA data! Here we read in FIA data from a local directory, using functionality from the `rFIA` package (Stanke et al., 2019). This dataset was also downloaded with rFIA, using the rFIA::getFIA() function.
 
-all.fia <- readFIA(dir = "data/fia/",
+all.fia <- readFIA(dir = "data/fia_tables_all/",
                    common=T, states="OR")
 
 #creating some fields in various tables
